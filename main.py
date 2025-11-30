@@ -121,7 +121,7 @@ if __name__ == '__main__':
         plot.pause(0.1)
         # ==========================================================
 
-    print 'DONE!'
-    print 'n_ templates:', len(slam.view_cells.cells)
-    print 'n_ experiences:', len(slam.experience_map.exps)
+    print('DONE!')
+    print(('n_ templates:', len(slam.view_cells.cells)))
+    print(('n_ experiences:', len(slam.experience_map.exps)))
     plot.show()
